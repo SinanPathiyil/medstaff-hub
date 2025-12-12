@@ -9,14 +9,12 @@ import Employees from "@/pages/Employees";
 import ShiftRoster from "@/pages/ShiftRoster";
 import Attendance from "@/pages/Attendance";
 import LeaveManagement from "@/pages/LeaveManagement";
-import { 
-  PayrollPage, 
-  CredentialsPage, 
-  TrainingPage, 
-  ReportsPage, 
-  CompliancePage, 
-  SettingsPage 
-} from "@/pages/PlaceholderPages";
+import Payroll from "@/pages/Payroll";
+import Credentials from "@/pages/Credentials";
+import Training from "@/pages/Training";
+import Reports from "@/pages/Reports";
+import Settings from "@/pages/Settings";
+import { CompliancePage } from "@/pages/PlaceholderPages";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,12 +32,12 @@ const App = () => (
             <Route path="/roster" element={<ShiftRoster />} />
             <Route path="/attendance" element={<Attendance />} />
             <Route path="/leave" element={<LeaveManagement />} />
-            <Route path="/payroll" element={<PayrollPage />} />
-            <Route path="/credentials" element={<CredentialsPage />} />
-            <Route path="/training" element={<TrainingPage />} />
-            <Route path="/reports" element={<ReportsPage />} />
+            <Route path="/payroll" element={<Payroll />} />
+            <Route path="/credentials" element={<Credentials />} />
+            <Route path="/training" element={<Training />} />
+            <Route path="/reports" element={<Reports />} />
             <Route path="/compliance" element={<CompliancePage />} />
-            <Route path="/settings" element={<SettingsPage />} />
+            <Route path="/settings" element={<Settings />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
