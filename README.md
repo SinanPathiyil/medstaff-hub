@@ -194,6 +194,7 @@ medstaff-hub
 └─ vite.config.ts
 
 ```
+
 ```
 medstaff-hub
 ├─ bun.lock
@@ -315,6 +316,7 @@ medstaff-hub
 └─ vite.config.ts
 
 ```
+
 ```
 medstaff-hub
 ├─ bun.lock
