@@ -106,19 +106,4 @@ medstaff-hub
 │  │  ├─ NavLink.tsx
 │  │  └─ ui
 │  │     ├─ accordion.tsx
-│  │     ├─ alert-dialog.tsx
-│  │     ├─ alert.tsx
-│  │     ├─ aspect-ratio.tsx
-│  │     ├─ avatar.tsx
-│  │     ├─ badge.tsx
-│  │     ├─ breadcrumb.tsx
-│  │     ├─ button-group.tsx
-│  │     ├─ button.tsx
-│  │     ├─ calendar.tsx
-│  │     ├─ card.tsx
-│  │     ├─ carousel.tsx
-│  │     ├─ chart.tsx
-│  │     ├─ checkbox.tsx
-│  │     ├─ collapsible.tsx
-│  │     ├─ command.tsx
 │
