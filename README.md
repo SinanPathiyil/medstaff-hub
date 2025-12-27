@@ -81,33 +81,6 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/c
 
 
 
-```
-medstaff-hub
-├─ bun.lock
-├─ components.json
-├─ eslint.config.js
-├─ index.html
-├─ package-lock.json
-├─ package.json
-├─ postcss.config.js
-├─ public
-│  ├─ favicon.ico
-│  ├─ placeholder.svg
-│  └─ robots.txt
-├─ README.md
-├─ src
-│  ├─ App.css
-│  ├─ App.tsx
-│  ├─ assets
-│  │  └─ hero-bg.jpg
-│  ├─ components
-│  │  ├─ dashboard
-│  │  │  ├─ AttendanceChart.tsx
-│  │  │  ├─ DepartmentChart.tsx
-│  │  │  ├─ RecentActivity.tsx
-│  │  │  ├─ StatCard.tsx
-│  │  │  └─ TodayShifts.tsx
-│  │  ├─ layout
 │  │  │  ├─ AppLayout.tsx
 │  │  │  ├─ Header.tsx
 │  │  │  └─ Sidebar.tsx
